@@ -1,0 +1,114 @@
+import React from 'react';
+import { NavigationContainer, DarkTheme } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { RootStackParams, TabParams } from './types';
+import { Icon } from '../components/UI';
+import { colors } from '../theme';
+import { MorseScreen, SavedScreen } from '../screens/MorseScreen';
+import { FlagsScreen, FlagScreen } from '../screens/FlagsScreen';
+import { GuideScreen, ArticleScreen } from '../screens/GuideScreen';
+import { TipsScreen, FavoritesScreen } from '../screens/TipsScreen';
+import { QuizScreen, TrainScreen } from '../screens/TrainScreens';
+import { useSignal } from '../services/SignalPlayer';
+import flags from '../data/flags.json';
+import articles from '../data/articles.json';
+const Stack = createNativeStackNavigator<RootStackParams>();
+const Tab = createBottomTabNavigator<TabParams>();
+function Tabs() {
+  return (
+    <Tab.Navigator
+      screenOptions={({ route }) => ({
+        headerShown: false,
+        tabBarActiveTintColor: colors.orange,
+        tabBarInactiveTintColor: '#858095',
+        tabBarStyle: {
+          backgroundColor: '#0E0B24',
+          borderTopColor: '#ffffff15',
+          paddingTop: 9,
+        },
+        tabBarLabelStyle: { fontSize: 10, paddingBottom: 3 },
+        tabBarIcon: ({ color }) => (
+          <Icon name={route.name} color={color} size={23} />
+        ),
+      })}
+    >
+      <Tab.Screen name="Morse" component={MorseScreen} />
+      <Tab.Screen name="Flags" component={FlagsScreen} />
+      <Tab.Screen name="Guide" component={GuideScreen} />
+      <Tab.Screen name="Train" component={TrainScreen} />
+      <Tab.Screen name="Tips" component={TipsScreen} />
+    </Tab.Navigator>
+  );
+}
+export function AppNavigator() {
+  const signal = useSignal();
+  return (
+    <NavigationContainer
+      theme={{
+        ...DarkTheme,
+        colors: {
+          ...DarkTheme.colors,
+          background: colors.background,
+          card: '#130F2B',
+          text: colors.text,
+          primary: colors.orange,
+          border: colors.border,
+        },
+      }}
+      onStateChange={signal.stop}
+    >
+      <Stack.Navigator
+        screenOptions={{
+          headerStyle: { backgroundColor: '#130F2B' },
+          headerTintColor: colors.orange,
+          headerTitleStyle: {
+            color: colors.text,
+            fontSize: 16,
+            fontWeight: '500',
+          },
+          headerTitleAlign: 'center',
+          headerShadowVisible: false,
+          contentStyle: { backgroundColor: colors.background },
+        }}
+      >
+        <Stack.Screen
+          name="Main"
+          component={Tabs}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Saved"
+          component={SavedScreen}
+          options={{ title: 'Saved Results', headerBackTitle: 'Morse' }}
+        />
+        <Stack.Screen
+          name="Flag"
+          component={FlagScreen}
+          options={({ route }) => ({
+            title: flags.find(f => f.id === route.params.id)?.name,
+            headerBackTitle: 'Flags',
+          })}
+        />
+        <Stack.Screen
+          name="Article"
+          component={ArticleScreen}
+          options={({ route }) => ({
+            title: articles.find(a => a.id === route.params.id)?.category,
+            headerBackTitle: 'Guide',
+          })}
+        />
+        <Stack.Screen
+          name="Favorites"
+          component={FavoritesScreen}
+          options={{ title: 'Favorites', headerBackTitle: 'Tips' }}
+        />
+        <Stack.Screen
+          name="Quiz"
+          component={QuizScreen}
+          options={{ headerShown: false, gestureEnabled: false }}
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}

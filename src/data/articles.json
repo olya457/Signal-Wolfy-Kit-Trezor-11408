@@ -1,0 +1,554 @@
+[
+  {
+    "id": "1",
+    "title": "Compass Basics: Anatomy & Use",
+    "category": "Compass",
+    "level": "Beginner",
+    "intro": "A compass looks simple, but every part has a specific purpose. Learning how the baseplate, magnetic needle, bezel, orienting lines, index line and direction-of-travel arrow work together makes it much easier to understand bearings and move confidently without depending entirely on a phone or GPS device.",
+    "sections": [
+      {
+        "title": "Parts that matter",
+        "body": "A typical baseplate compass has a transparent base with measuring scales along its edges, a rotating bezel marked from 0° to 360°, a magnetic needle, an orienting arrow and parallel orienting lines inside the compass housing. The red end of the magnetic needle points toward magnetic north. The direction-of-travel arrow shows the direction you should physically move once the compass has been set correctly."
+      },
+      {
+        "title": "Holding the compass correctly",
+        "body": "Keep the compass approximately level and away from objects that can disturb the magnetic needle. Phones, speakers, magnets, metal tools, vehicles and some pieces of outdoor equipment may affect the reading. Give the needle a moment to settle before using the direction it indicates."
+      },
+      {
+        "title": "Boxing the needle",
+        "body": "Rotate the bezel until the orienting arrow sits directly beneath the red end of the magnetic needle. This is often remembered as “red in the shed.” Once the needle and orienting arrow are aligned, the number located at the index line gives your bearing."
+      },
+      {
+        "title": "Walking a bearing",
+        "body": "After setting the bearing, keep the compass flat and turn your whole body until the magnetic needle is correctly aligned again. Look along the direction-of-travel arrow and choose a recognizable landmark ahead, such as a tree, rock, building or ridge. Walk toward that landmark instead of watching the compass continuously. When you reach it, repeat the process."
+      }
+    ],
+    "takeaways": "Remember “red in the shed” when aligning the needle. Keep the compass away from strong magnetic and metallic interference. Use distant landmarks to maintain a straight course rather than staring continuously at the compass."
+  },
+  {
+    "id": "2",
+    "title": "Understanding Bearings: From Degrees to Direction",
+    "category": "Navigation",
+    "level": "Beginner",
+    "intro": "A bearing is a precise way of describing direction using degrees. Instead of saying “go northeast,” a bearing might tell you to travel at 045°. This makes navigation much more accurate because every possible horizontal direction can be represented by a number between 0° and 360°.",
+    "sections": [
+      {
+        "title": "How the degree system works",
+        "body": "North is 000° or 360°, east is 090°, south is 180° and west is 270°. Directions between these points use intermediate values. Northeast is approximately 045°, southeast approximately 135°, southwest approximately 225° and northwest approximately 315°."
+      },
+      {
+        "title": "Reading a bearing",
+        "body": "Hold the compass flat and point the direction-of-travel arrow toward the object or direction you want to measure. Rotate the bezel until the orienting arrow aligns with the red end of the magnetic needle. Read the degree value at the index line. That number is the bearing toward the object."
+      },
+      {
+        "title": "Following a known bearing",
+        "body": "If you already know the bearing, rotate the bezel until the required degree value appears at the index line. Hold the compass level and rotate yourself until the red end of the magnetic needle aligns with the orienting arrow. The direction-of-travel arrow now points along the intended direction."
+      },
+      {
+        "title": "Back bearings",
+        "body": "A back bearing points exactly opposite the original bearing and is useful when returning along the same line. Add 180° when the original bearing is below 180°, or subtract 180° when it is above 180°. For example, the back bearing of 070° is 250°, while the back bearing of 230° is 050°."
+      }
+    ],
+    "takeaways": "North corresponds to 000° or 360°, east to 090°, south to 180° and west to 270°. Bearings provide more precision than general cardinal directions. A back bearing is always 180° opposite the original direction. Always confirm that the magnetic needle has settled before taking an accurate reading."
+  },
+  {
+    "id": "3",
+    "title": "Finding Direction Without a Compass",
+    "category": "Field Skills",
+    "level": "Intermediate",
+    "intro": "A compass is the most reliable simple tool for determining direction, but circumstances sometimes require you to estimate orientation without one. Natural clues can help build situational awareness, especially when several independent observations agree with one another. No single natural method should be treated as perfectly accurate.",
+    "sections": [
+      {
+        "title": "Using the Sun",
+        "body": "The Sun generally rises in the eastern part of the sky and sets in the western part, but the exact position changes throughout the year and depends on latitude. This makes sunrise and sunset useful for obtaining a broad sense of direction rather than an exact bearing."
+      },
+      {
+        "title": "Using shadows",
+        "body": "Place a straight stick vertically into level ground and mark the tip of its shadow. Wait long enough for the shadow to move noticeably and mark its new position. The line between the two marks provides an approximate east-west reference because the shadow changes as the Sun moves across the sky."
+      },
+      {
+        "title": "Using the night sky",
+        "body": "In the Northern Hemisphere, Polaris can provide a useful approximation of true north when visible. It can be located using the familiar pattern of the Big Dipper as a reference. Other stars and constellations move across the night sky, so they require more knowledge to use reliably."
+      },
+      {
+        "title": "Reading the landscape carefully",
+        "body": "Roads, rivers, valleys, power lines, coastlines and major mountain ridges can all become directional references if you previously studied the map. Instead of attempting to extract exact direction from vegetation or isolated environmental signs, compare large terrain features with known information."
+      }
+    ],
+    "takeaways": "Natural navigation is most reliable when several clues support the same conclusion. Sunrise and sunset provide approximate rather than exact east-west references. Large terrain features are usually more useful than folklore about moss, trees or vegetation."
+  },
+  {
+    "id": "4",
+    "title": "Morse Code Timing: Why Rhythm Matters",
+    "category": "Morse",
+    "level": "Beginner",
+    "intro": "Morse code is not simply a collection of dots and dashes. Timing is what separates individual elements, letters and words. Once you understand the rhythm, Morse becomes easier to recognize by sound, light or vibration because you stop counting individual symbols and begin hearing complete patterns.",
+    "sections": [
+      {
+        "title": "Dot and dash timing",
+        "body": "A dot represents one timing unit. A dash lasts three units. The space between elements within the same character lasts one unit. The gap between letters lasts three units, while the gap between words lasts seven units."
+      },
+      {
+        "title": "Why consistent timing matters",
+        "body": "Consider two Morse characters that contain similar elements. If the gaps are inconsistent, a listener may misunderstand where one letter ends and another begins. Clear rhythm therefore matters just as much as knowing the correct sequence of dots and dashes."
+      },
+      {
+        "title": "Learning by sound",
+        "body": "Beginners often try to visualize every symbol while listening. With practice, it becomes more effective to recognize the overall rhythm of a character. A familiar Morse letter begins to sound like a single recognizable pattern instead of several separate tones."
+      },
+      {
+        "title": "Using light and vibration",
+        "body": "The same timing structure can be reproduced using a flashlight or haptic vibration. A short flash corresponds to a dot, a longer flash corresponds to a dash, and clearly defined pauses separate letters and words. This allows Morse to be practiced using more than one sensory channel."
+      }
+    ],
+    "takeaways": "A dash lasts three times as long as a dot. The pauses between elements, letters and words have different lengths. Good Morse transmission depends on consistent rhythm as much as correct symbols. Practice with sound, light and vibration to build faster recognition."
+  },
+  {
+    "id": "5",
+    "title": "Maritime Signal Flags: Reading the System",
+    "category": "Signal Flags",
+    "level": "Beginner",
+    "intro": "International maritime signal flags allow vessels to communicate visually when radio communication is unavailable, inconvenient or unnecessary. Each alphabetic flag has a distinctive pattern designed to remain recognizable at distance, and many individual flags carry a complete operational meaning when flown alone.",
+    "sections": [
+      {
+        "title": "Letters and meanings",
+        "body": "The flags correspond to letters of the alphabet, but their role goes beyond spelling. For example, Oscar communicates “Man overboard,” while Victor communicates “I require assistance.” The correct interpretation therefore depends on whether the flag is being used as an individual signal or as part of a larger coded group."
+      },
+      {
+        "title": "Reading a hoist",
+        "body": "When several flags are displayed together vertically, they form a hoist. The sequence is normally read from top to bottom. The meaning may represent a coded message rather than the separate meanings of each flag combined."
+      },
+      {
+        "title": "Numeral pennants",
+        "body": "Numbers from 0 to 9 have their own distinctive pennants. They can be used within numerical groups to communicate quantities, times, bearings, coordinates and other values required by the signal."
+      },
+      {
+        "title": "Substitute flags",
+        "body": "A vessel may not carry multiple copies of every signal flag. Substitute flags make it possible to repeat a previously used flag within the same hoist without requiring another physical copy of it."
+      },
+      {
+        "title": "Why context matters",
+        "body": "A flag used alone may have a specific operational meaning, while the same flag inside a coded group functions as a letter. For that reason, signals should be interpreted using the complete displayed group rather than guessing from one component."
+      }
+    ],
+    "takeaways": "Individual flags can carry complete operational meanings. Multi-flag groups should be interpreted as complete codes rather than by simply combining individual meanings. Numerical pennants transmit digits. Flag sequences are normally read from top to bottom. Context determines how a flag should be interpreted."
+  },
+  {
+    "id": "6",
+    "title": "Staying Oriented in Unfamiliar Terrain",
+    "category": "Navigation",
+    "level": "Beginner",
+    "intro": "Getting disoriented usually happens gradually. A person may continue walking while paying attention to the immediate trail and only later realize that familiar reference points have disappeared. Good orientation therefore begins before there is a problem.",
+    "sections": [
+      {
+        "title": "Build a mental map first",
+        "body": "Before moving into unfamiliar terrain, identify major features such as roads, rivers, ridges, lakes, settlements or power lines. These large features create boundaries that are easier to recognize than small trail details."
+      },
+      {
+        "title": "Look behind you",
+        "body": "A trail often looks completely different when viewed from the opposite direction. Periodically turn around and observe what the route will look like on the return journey. Notice junctions, unusual rocks, distinctive trees and changes in terrain."
+      },
+      {
+        "title": "Track major changes",
+        "body": "When the route changes direction significantly, mentally note the turn and the feature associated with it. Crossing a stream, leaving a forest, entering an open field or passing beneath power lines provides a stronger memory anchor than simply trying to remember elapsed time."
+      },
+      {
+        "title": "Recognize uncertainty early",
+        "body": "If the surroundings no longer match what you expected, avoid continuing rapidly in the hope that the route will become familiar again. Stop, compare the available information and identify the last location you were reasonably confident about."
+      }
+    ],
+    "takeaways": "Create a simple mental map before moving through unfamiliar terrain. Regularly look backward so you recognize the return route. Large terrain features are more reliable references than small visual details. React to uncertainty early rather than continuing farther without confirmation."
+  },
+  {
+    "id": "7",
+    "title": "Cardinal Directions and the 16-Point Compass",
+    "category": "Compass",
+    "level": "Beginner",
+    "intro": "North, south, east and west are only the beginning of directional language. The traditional compass rose divides the horizon into progressively smaller sectors, allowing people to describe a direction with more precision without always using numerical bearings.",
+    "sections": [
+      {
+        "title": "The four cardinal directions",
+        "body": "North, east, south and west divide the compass into four primary directions. On a standard compass, north is at 000°, east at 090°, south at 180° and west at 270°."
+      },
+      {
+        "title": "The intercardinal directions",
+        "body": "Northeast lies halfway between north and east, southeast between south and east, southwest between south and west, and northwest between north and west. These directions correspond approximately to 045°, 135°, 225° and 315°."
+      },
+      {
+        "title": "The sixteen-point system",
+        "body": "The spaces can be divided again to create north-northeast, east-northeast, east-southeast, south-southeast, south-southwest, west-southwest, west-northwest and north-northwest. Each step in a sixteen-point compass represents 22.5°."
+      },
+      {
+        "title": "When names are useful",
+        "body": "Directional names are convenient for weather descriptions, general movement, maritime communication and casual orientation. Numerical bearings are usually preferable when greater precision is necessary."
+      }
+    ],
+    "takeaways": "The four cardinal directions form the foundation of the compass rose. Intercardinal directions sit halfway between the cardinal points. A sixteen-point compass divides the horizon into sections of 22.5°."
+  },
+  {
+    "id": "8",
+    "title": "Route Markers: Choosing Landmarks That Actually Work",
+    "category": "Field Skills",
+    "level": "Intermediate",
+    "intro": "A useful landmark is not simply something noticeable. It must remain recognizable from the direction you are travelling and ideally be difficult to confuse with surrounding objects. Choosing good landmarks can make compass navigation faster and reduce small directional errors.",
+    "sections": [
+      {
+        "title": "Choose distinctive features",
+        "body": "A lone building, unusual rock formation, transmission tower, isolated tree or clear break in a ridge may work well. A generic tree inside a dense forest usually does not because dozens of similar objects surround it."
+      },
+      {
+        "title": "Prefer distant landmarks",
+        "body": "When following a bearing, choosing a landmark farther away reduces the number of times you must stop and realign the compass. However, it should still be close enough that its identity remains obvious throughout the approach."
+      },
+      {
+        "title": "Use intermediate targets",
+        "body": "When terrain blocks the distant view, select a nearer object that lies directly on the desired bearing. Walk to it, repeat the compass check and select another target. This creates a series of controlled segments."
+      },
+      {
+        "title": "Be careful with moving objects",
+        "body": "Vehicles, livestock, boats, shadows and other moving features should never serve as permanent navigational references. A landmark must remain where you expect it to be."
+      },
+      {
+        "title": "Confirm before changing direction",
+        "body": "When reaching a junction or terrain transition, check the route again before moving onward. Small directional mistakes made repeatedly can create a large deviation over distance."
+      }
+    ],
+    "takeaways": "Choose landmarks that are distinctive and stationary. Distant targets reduce repeated compass checks. Use intermediate landmarks when visibility is limited. Reconfirm your direction whenever the route changes significantly. Avoid relying on objects that may move or disappear."
+  },
+  {
+    "id": "9",
+    "title": "Emergency Signaling: Making Yourself Easier to Notice",
+    "category": "Signals",
+    "level": "Beginner",
+    "intro": "In an emergency, the goal of signaling is not to create the most complicated message. The first priority is attracting attention and making your location easier to identify. Repeated, deliberate signals are generally easier to recognize than random movement, noise or flashes.",
+    "sections": [
+      {
+        "title": "Visual contrast matters",
+        "body": "A signal should stand out from its surroundings. Bright material, a flashlight, reflective surfaces or deliberate movement may be much easier to notice than neutral-colored equipment that blends into the terrain."
+      },
+      {
+        "title": "Use repetition",
+        "body": "A repeated pattern appears intentional. Random flashes or sounds can be mistaken for ordinary activity, while a consistent pattern is more likely to attract attention and indicate that someone is deliberately trying to communicate."
+      },
+      {
+        "title": "Think about the observer",
+        "body": "A signal visible from ground level may be difficult to see from an aircraft, while a large ground marker may be obvious from above but invisible behind trees. Consider where potential rescuers or other observers are likely to approach from."
+      },
+      {
+        "title": "Preserve resources",
+        "body": "Continuous use of powerful lights or electronic equipment can quickly consume battery power. When practical, use signaling tools deliberately rather than leaving every device operating at maximum output unnecessarily."
+      }
+    ],
+    "takeaways": "Make signals deliberate, visible and repeatable. Contrast helps a signal stand out from the environment. Consider whether the observer is likely to approach from the ground, water or air. Manage battery-powered signaling equipment carefully."
+  },
+  {
+    "id": "10",
+    "title": "Magnetic North vs True North",
+    "category": "Compass",
+    "level": "Intermediate",
+    "intro": "A compass needle points toward magnetic north, while maps are generally oriented using geographic or true north. Those two directions are not always identical. The angular difference between them is known as magnetic declination, and understanding it becomes increasingly important when accurate navigation is required.",
+    "sections": [
+      {
+        "title": "True north",
+        "body": "True north points geographically toward the North Pole along the Earth’s rotational axis. Lines of longitude on a map converge toward true north."
+      },
+      {
+        "title": "Magnetic north",
+        "body": "A magnetic compass aligns with the Earth’s magnetic field. The magnetic north position differs from the geographic North Pole and changes gradually over time."
+      },
+      {
+        "title": "Magnetic declination",
+        "body": "Declination is the angle between true north and magnetic north at a particular location. It may be east or west of true north and can vary considerably between regions."
+      },
+      {
+        "title": "Why the difference matters",
+        "body": "For a short walk where broad direction is sufficient, a small difference may not create an obvious problem. Over long distances, however, even a modest angular error can move the traveller significantly away from the intended route."
+      },
+      {
+        "title": "Using map information",
+        "body": "Topographic maps may include declination information or a north reference diagram. When precision matters, ensure that the map information is current enough for the intended use because magnetic values change over time."
+      }
+    ],
+    "takeaways": "A compass indicates magnetic north rather than geographic true north. Magnetic declination describes the angle between those two directions. Declination varies by location and changes over time. Small angular errors become more significant over greater travel distances. Use appropriate current map information when accurate bearings are required."
+  },
+  {
+    "id": "11",
+    "title": "Reading a Topographic Map: Contours, Slopes & Shape",
+    "category": "Maps",
+    "level": "Intermediate",
+    "intro": "A topographic map represents the shape of the land using contour lines. These lines connect points of equal elevation, allowing you to understand hills, valleys, ridges and slopes before you ever reach them. Once you learn to recognize a few common patterns, a flat map starts to look much more like real terrain.",
+    "sections": [
+      {
+        "title": "Understanding contour lines",
+        "body": "Each contour line represents a specific elevation. The difference in height between neighboring contour lines is called the contour interval. That interval stays consistent across the same map, so closely packed lines show a rapid change in elevation while widely spaced lines indicate gentler terrain."
+      },
+      {
+        "title": "Recognizing steep and gentle slopes",
+        "body": "When contour lines are very close together, the slope is steep. When they are far apart, the slope is more gradual. Extremely dense lines can indicate cliffs or very sharp terrain, while large areas with few contour lines are usually relatively flat."
+      },
+      {
+        "title": "Reading hills and depressions",
+        "body": "Closed contour loops usually indicate a hill when elevation values increase toward the center. Depressions may be shown with special inward-facing marks depending on the mapping system. Comparing elevation labels is the safest way to understand whether the terrain rises or falls."
+      },
+      {
+        "title": "Spotting valleys and ridges",
+        "body": "Contour lines crossing a valley often form a V-shape pointing toward higher ground. Ridges tend to produce shapes pointing toward lower ground. Learning these patterns helps you identify natural routes even when roads or marked trails are absent."
+      },
+      {
+        "title": "Connecting the map to reality",
+        "body": "Do not study contour lines in isolation. Compare their pattern with visible terrain features such as peaks, saddles, streams and long ridges. Matching several features is much more reliable than identifying a location from a single shape."
+      }
+    ],
+    "takeaways": "Close contour lines indicate steeper terrain, while wide spacing suggests gentler slopes. Closed loops often represent hills. Valleys and ridges create recognizable contour patterns. Always compare multiple terrain features before confirming your position."
+  },
+  {
+    "id": "12",
+    "title": "Estimating Distance on Foot",
+    "category": "Field Skills",
+    "level": "Beginner",
+    "intro": "Knowing approximately how far you have travelled can be useful when following a route, looking for a junction or estimating how long it should take to reach a landmark. GPS makes this easy, but basic distance estimation remains useful when devices are unavailable or when you simply want to maintain better awareness of your movement.",
+    "sections": [
+      {
+        "title": "Using travel time",
+        "body": "One of the simplest methods is to estimate distance from your average walking speed. On easy ground, many adults walk at roughly four to five kilometers per hour, but hills, mud, snow, heavy equipment and frequent stops can reduce this significantly. Treat walking speed as a personal estimate rather than a fixed rule."
+      },
+      {
+        "title": "Using pace counting",
+        "body": "Pace counting involves tracking how many steps or double steps you take over a known distance. Measure your normal pace over 100 meters several times and calculate an average. Once you know that number, you can estimate distance by counting paces while walking."
+      },
+      {
+        "title": "Terrain changes the result",
+        "body": "Your step length becomes shorter when climbing steep ground, moving through vegetation or walking cautiously over rocks. Downhill movement can also alter your pace. Recalibrate your expectations whenever terrain changes substantially."
+      },
+      {
+        "title": "Combining methods",
+        "body": "Distance estimation improves when pace count, time and map information agree. For example, if the map shows a stream around one kilometer away and both your walking time and pace count suggest you have travelled about that distance, your confidence increases."
+      }
+    ],
+    "takeaways": "Walking speed varies with terrain and conditions. Pace counting works best after measuring your own normal pace. Combining time, pace and map features gives a more reliable estimate than depending on only one method."
+  },
+  {
+    "id": "13",
+    "title": "Handrails, Catching Features & Attack Points",
+    "category": "Navigation",
+    "level": "Intermediate",
+    "intro": "Good navigation is not always about following an exact compass bearing from start to finish. Experienced navigators often use large terrain features to make movement simpler and more reliable. Three particularly useful concepts are handrails, catching features and attack points.",
+    "sections": [
+      {
+        "title": "Handrails",
+        "body": "A handrail is a long feature that is easy to follow, such as a road, river, fence, coastline, ridge or forest edge. Instead of repeatedly checking a compass, you can travel alongside the feature while maintaining awareness of your position."
+      },
+      {
+        "title": "Catching features",
+        "body": "A catching feature is something obvious that lies beyond your intended destination. It tells you that you have gone too far. A large road, river or ridge can serve this role because it is difficult to pass without noticing."
+      },
+      {
+        "title": "Attack points",
+        "body": "An attack point is a clear feature located near a smaller or harder-to-find destination. Rather than trying to navigate directly to a tiny feature from far away, first reach the obvious attack point and then navigate accurately over the short final distance."
+      },
+      {
+        "title": "Building a safer route",
+        "body": "A route may deliberately be slightly longer if it provides better handrails and catching features. The easiest line on the map is not always the easiest line to follow in the real world."
+      }
+    ],
+    "takeaways": "Handrails simplify movement by giving you a feature to follow. Catching features warn you when you have travelled too far. Attack points make small destinations easier to locate. A slightly longer route can sometimes be much easier to navigate accurately."
+  },
+  {
+    "id": "14",
+    "title": "Understanding Grid References",
+    "category": "Maps",
+    "level": "Intermediate",
+    "intro": "Grid references allow a precise location to be communicated without relying on place names. Many maps divide the landscape into a regular grid so that a location can be described using numbers. The more digits used, the more precise the reference becomes.",
+    "sections": [
+      {
+        "title": "Reading across before up",
+        "body": "A common rule is to read grid coordinates horizontally first and vertically second. This is often remembered as “along the corridor, then up the stairs.” The first value identifies the east-west position, while the second identifies the north-south position."
+      },
+      {
+        "title": "Four-digit references",
+        "body": "A four-digit reference usually identifies an entire grid square rather than an exact point. This may be enough when describing a broad area but is not precise enough for a small feature."
+      },
+      {
+        "title": "Six-digit references",
+        "body": "Adding extra digits narrows the location within the square. A six-digit reference provides a much more precise position and is often suitable for identifying individual landmarks or meeting points on detailed maps."
+      },
+      {
+        "title": "Avoiding common mistakes",
+        "body": "Reversing the coordinate order is one of the easiest ways to communicate the wrong location. Another common problem is using a grid system from one map with coordinates intended for another. Always make sure everyone is using the same map and coordinate format."
+      }
+    ],
+    "takeaways": "Read horizontal coordinates before vertical coordinates. More digits provide greater precision. Always confirm that both people are using the same coordinate system and map."
+  },
+  {
+    "id": "15",
+    "title": "Recognizing Terrain Features: Ridge, Spur, Valley & Saddle",
+    "category": "Terrain",
+    "level": "Intermediate",
+    "intro": "Terrain becomes much easier to understand when you can identify its basic shapes. Hills are not simply isolated high points; they contain ridges, valleys, spurs, saddles and other structures that influence both movement and navigation.",
+    "sections": [
+      {
+        "title": "Ridges",
+        "body": "A ridge is an elongated area of high ground. Water generally flows away from both sides of it. Ridges often provide good visibility and can be useful as major navigational references because they extend across large areas."
+      },
+      {
+        "title": "Spurs",
+        "body": "A spur is a smaller ridge projecting away from higher ground. It may appear as a finger of elevated terrain reaching into a valley. On a map, contour lines around a spur generally point toward lower ground."
+      },
+      {
+        "title": "Valleys",
+        "body": "A valley is low ground between higher areas, often containing a stream or river. Contour lines usually form shapes pointing toward higher elevation when crossing the valley."
+      },
+      {
+        "title": "Saddles",
+        "body": "A saddle is a lower point between two higher areas. It can resemble the seat of a saddle when viewed from the side. Because saddles provide easier passages through high terrain, trails and routes often pass through them."
+      },
+      {
+        "title": "Using shapes together",
+        "body": "One feature alone may be difficult to identify, but combinations are much clearer. A saddle between two hills, a stream inside a valley and a spur descending from a ridge can create a unique terrain pattern that is easy to match with a map."
+      }
+    ],
+    "takeaways": "Ridges form extended high ground. Spurs project away from higher terrain. Valleys lie between higher areas and often contain watercourses. Saddles form lower crossings between nearby high points. Terrain features are easiest to identify as combinations rather than isolated shapes."
+  },
+  {
+    "id": "16",
+    "title": "What to Do When You Lose the Trail",
+    "category": "Field Safety",
+    "level": "Beginner",
+    "intro": "Losing a trail does not automatically mean that you are lost, but continuing to move without understanding where the route went can quickly turn a minor mistake into a larger navigation problem. The best response is usually controlled, deliberate and based on the last location you recognized confidently.",
+    "sections": [
+      {
+        "title": "Stop early",
+        "body": "The moment you become unsure whether you are still on the intended trail, slow down or stop. Walking another kilometer in the wrong direction creates a much larger search area than stopping after the first few minutes of uncertainty."
+      },
+      {
+        "title": "Identify the last confirmed point",
+        "body": "Think back to the last place you recognized with confidence. This might be a junction, bridge, stream, viewpoint or clearly marked section of trail. Estimating where that feature lies gives you a useful reference."
+      },
+      {
+        "title": "Check the immediate area",
+        "body": "Sometimes a trail becomes temporarily unclear because of fallen trees, snow, vegetation or several minor footpaths. Look around carefully before committing to a new direction. Check for trail markings, footprints, map features and obvious continuation lines."
+      },
+      {
+        "title": "Use your navigation tools",
+        "body": "Compare your surroundings with the map, compass and any reliable stored GPS information you have available. Avoid following an unverified direction simply because it “feels right.”"
+      },
+      {
+        "title": "Decide whether to return",
+        "body": "If you can safely retrace your steps to the last confirmed point, returning may be more reliable than continuing to search ahead. A known position is more valuable than an uncertain guess farther along the route."
+      }
+    ],
+    "takeaways": "Recognize uncertainty early. Return mentally to the last location you knew with confidence. Search locally before making a major direction change. Retracing a known route is often safer than continuing deeper into uncertainty."
+  },
+  {
+    "id": "17",
+    "title": "Using a Map and Compass Together",
+    "category": "Navigation",
+    "level": "Intermediate",
+    "intro": "A map tells you what the terrain should look like, while a compass tells you direction. Each tool becomes much more useful when used with the other. The goal is not simply to follow a needle but to connect the orientation of the map with the landscape around you.",
+    "sections": [
+      {
+        "title": "Orienting the map",
+        "body": "Place the map flat and identify north on the map. Use the compass to rotate the map until map north corresponds with north in the real world. Once oriented, features shown to your left, right and ahead should approximately match their real-world directions."
+      },
+      {
+        "title": "Identifying visible features",
+        "body": "Look for large, distinctive features such as peaks, lakes, road intersections, towers or valleys. Find the same features on the map. Matching several visible features gives you a stronger confirmation of your location."
+      },
+      {
+        "title": "Taking a map bearing",
+        "body": "Place the edge of the compass between your current position and destination. Rotate the bezel so its orienting lines align with the north-south grid lines on the map. After accounting for the appropriate north reference, hold the compass correctly and use the resulting bearing to determine your travel direction."
+      },
+      {
+        "title": "Checking progress",
+        "body": "Do not wait until the destination to check whether the route still makes sense. Regularly compare terrain changes, distance travelled and expected landmarks with the map. Frequent small confirmations reduce the chance of a large navigation error."
+      }
+    ],
+    "takeaways": "Orient the map so it matches the real landscape. Confirm your position using multiple visible features. Convert the route on the map into a direction you can follow with the compass. Check your progress regularly instead of navigating only from start to finish."
+  },
+  {
+    "id": "18",
+    "title": "Visibility, Fog & Low-Light Navigation",
+    "category": "Field Skills",
+    "level": "Intermediate",
+    "intro": "Navigation becomes significantly harder when fog, darkness, heavy rain or snowfall removes distant landmarks. Under low visibility, techniques that work easily during daylight may become unreliable because you can no longer see the terrain far enough ahead to confirm your direction.",
+    "sections": [
+      {
+        "title": "Shorten your navigation legs",
+        "body": "Instead of aiming for a distant landmark, divide the route into smaller sections between features that are easier to identify. Frequent confirmation is more important when visibility is poor."
+      },
+      {
+        "title": "Use stronger features",
+        "body": "A large road, stream, ridge or fence is usually easier to recognize than a small trail junction in darkness or fog. When possible, choose routes that use obvious linear features as guides."
+      },
+      {
+        "title": "Maintain direction carefully",
+        "body": "Without visual landmarks, people naturally drift away from a straight line. Compass bearings therefore become more important. Move toward short-range visible targets that lie on the bearing and repeat the process."
+      },
+      {
+        "title": "Reduce speed",
+        "body": "Fast movement gives you less time to recognize trail changes and terrain hazards. A slower pace also makes it easier to monitor the compass, count distance and notice environmental clues."
+      },
+      {
+        "title": "Be aware of light limitations",
+        "body": "Artificial light can illuminate nearby objects while making the surrounding darkness feel even deeper. Periodically stop and observe the broader environment rather than focusing only on the illuminated ground directly ahead."
+      }
+    ],
+    "takeaways": "Use shorter navigation legs in poor visibility. Prefer large, unmistakable terrain features. Compass discipline becomes more important when distant landmarks disappear. Reduce speed so you have time to recognize both navigation features and hazards."
+  },
+  {
+    "id": "19",
+    "title": "The Difference Between Heading, Bearing & Course",
+    "category": "Navigation",
+    "level": "Intermediate",
+    "intro": "Heading, bearing and course are often used as if they mean the same thing, but they describe different aspects of movement and direction. Understanding the distinction makes maps, compasses and navigation instructions easier to interpret.",
+    "sections": [
+      {
+        "title": "Bearing",
+        "body": "A bearing describes the direction from one location to another. If a mountain lies northeast of your position, the bearing toward it might be approximately 045°. You may have a bearing toward an object even if you are not currently travelling in that direction."
+      },
+      {
+        "title": "Heading",
+        "body": "Heading describes the direction you or a vehicle are currently pointing. A boat can be pointing north while actually being pushed slightly east by wind or current. The heading describes orientation, not necessarily the path being travelled across the ground."
+      },
+      {
+        "title": "Course",
+        "body": "Course generally refers to the intended direction of travel from one point toward another. In practical navigation, environmental effects may cause the actual track to differ from the planned course."
+      },
+      {
+        "title": "Why the distinction matters",
+        "body": "If you are walking toward a landmark, bearing, heading and course may appear almost identical. In wind, current or complex terrain, however, the differences become much more noticeable."
+      }
+    ],
+    "takeaways": "Bearing is the direction from one point to another. Heading is the direction you are facing. Course is the direction you intend to travel. Environmental conditions can cause actual movement to differ from both heading and planned course."
+  },
+  {
+    "id": "20",
+    "title": "Navigation Mistakes: Small Errors That Become Big Problems",
+    "category": "Field Safety",
+    "level": "Intermediate",
+    "intro": "Major navigation mistakes are often built from several small errors rather than one dramatic decision. A slightly incorrect bearing, an unverified junction and an optimistic assumption about distance can combine until the traveller is far from the intended route.",
+    "sections": [
+      {
+        "title": "Ignoring early inconsistencies",
+        "body": "If a stream, junction or ridge should have appeared but did not, treat that discrepancy as information. Continuing because you assume the feature will appear later can increase the error."
+      },
+      {
+        "title": "Forcing the terrain to match the map",
+        "body": "People sometimes convince themselves that an unfamiliar hill or road must be the feature they expected to see. Instead, ask whether several surrounding features also match. One similarity is not enough."
+      },
+      {
+        "title": "Overestimating distance travelled",
+        "body": "Difficult terrain can make a short distance feel much longer. Conversely, easy roads can allow you to travel farther than expected. Use time, pace, map scale and landmarks together."
+      },
+      {
+        "title": "Following other people blindly",
+        "body": "Footprints, unofficial trails and other hikers are not proof that you are on the correct route. Another person may have a different destination or may also be navigating incorrectly."
+      },
+      {
+        "title": "Waiting too long to correct an error",
+        "body": "A navigation mistake is usually easiest to fix immediately after it occurs. Once several unknown turns have accumulated, returning to a confirmed position becomes much harder."
+      }
+    ],
+    "takeaways": "Treat missing expected landmarks as useful warning signs. Never force one visible feature to fit your assumptions. Estimate distance using more than intuition. Other travellers are not reliable navigation evidence. Correct uncertainty while it is still small rather than allowing several errors to accumulate."
+  }
+]

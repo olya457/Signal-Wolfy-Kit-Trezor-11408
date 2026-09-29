@@ -1,0 +1,379 @@
+[
+  {
+    "id": "1",
+    "title": "Make Yourself Visible",
+    "category": "Emergency",
+    "intro": "When you need to be found, visibility matters more than movement. A clear, deliberate signal is easier to notice than random activity.",
+    "steps": [
+      "Choose an open area whenever it is safe to do so, especially if rescuers may approach from the air.",
+      "Use bright or strongly contrasting material that stands out from the surrounding terrain.",
+      "At night, use controlled flashlight flashes rather than leaving the light pointed in one direction.",
+      "Keep signaling equipment close so you can react quickly when you hear or see rescuers."
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Stop Before You Get More Lost",
+    "category": "Navigation",
+    "intro": "Uncertainty becomes harder to fix the farther you continue moving without a confirmed direction.",
+    "steps": [
+      "Stop as soon as the surroundings no longer match what you expected.",
+      "Identify the last location you recognized with confidence.",
+      "Compare your map, compass and visible terrain before choosing the next direction."
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Use Landmarks, Not the Needle",
+    "category": "Compass",
+    "intro": "A compass gives you direction, but constantly staring at it makes walking less efficient and can distract you from the terrain.",
+    "steps": [
+      "Set your bearing and select a recognizable object directly ahead.",
+      "Walk toward that object while keeping your attention on the ground and surroundings.",
+      "Recheck the compass when you reach the landmark, then choose the next one.",
+      "Use more frequent checks when visibility becomes poor."
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Save Your Phone Battery",
+    "category": "Field Safety",
+    "intro": "A phone can be useful for maps, communication, light and emergency information, but only while the battery lasts.",
+    "steps": [
+      "Lower screen brightness when maximum brightness is unnecessary.",
+      "Use airplane mode when you do not need an active network connection.",
+      "Avoid repeatedly opening high-power apps just to check your location.",
+      "Keep the phone protected from extreme cold, which can temporarily reduce battery performance.",
+      "Reserve enough power for communication or navigation if conditions become more serious."
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Whistle Before You Shout",
+    "category": "Emergency",
+    "intro": "A whistle can produce a sharp, repeatable signal without exhausting your voice.",
+    "steps": [
+      "Keep the whistle somewhere immediately accessible rather than buried inside a backpack.",
+      "Use deliberate repeated patterns with clear pauses.",
+      "After signaling, stop and listen for a response before repeating."
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Read a Trail in Both Directions",
+    "category": "Navigation",
+    "intro": "A route can look completely different when you turn around. Remembering the return view makes retracing your path much easier.",
+    "steps": [
+      "Occasionally look behind you while travelling.",
+      "Notice distinctive junctions, rocks, bridges, clearings and changes in vegetation.",
+      "Pay special attention immediately after major turns.",
+      "Take a quick reference photo when a confusing junction may be difficult to recognize later."
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Keep the Compass Clear",
+    "category": "Compass",
+    "intro": "Magnetic interference can make an otherwise correct compass reading misleading.",
+    "steps": [
+      "Move the compass away from phones, speakers, magnets, vehicles and large metal objects.",
+      "Hold it level and allow the needle to settle before reading the bearing.",
+      "If the reading seems unusual, move several steps away from nearby equipment and check again."
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Make Morse Rhythm Consistent",
+    "category": "Morse",
+    "intro": "Correct symbols are only part of Morse communication. Consistent timing makes the message much easier to recognize.",
+    "steps": [
+      "Keep every dot approximately the same short length.",
+      "Make each dash approximately three times the duration of a dot.",
+      "Use clear pauses so the receiver can distinguish individual letters.",
+      "Slow down before sacrificing rhythm for speed."
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Use Large Features First",
+    "category": "Navigation",
+    "intro": "When trying to determine your position, large terrain features are usually easier to identify reliably than small details.",
+    "steps": [
+      "Look first for rivers, ridges, coastlines, major roads or large clearings.",
+      "Match several visible features with the map rather than relying on only one.",
+      "Use smaller landmarks only after the general area has been confirmed."
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Signal From the Best Position",
+    "category": "Emergency",
+    "intro": "A strong signal from a hidden location can be less effective than a simple signal from somewhere clearly visible.",
+    "steps": [
+      "Avoid signaling from behind dense vegetation or terrain when a safe open position is nearby.",
+      "Consider where rescuers are most likely to approach from.",
+      "Keep visual signals separated from clutter so their shape and movement are obvious.",
+      "If you hear an aircraft or vehicle, prepare the signal before it reaches your position."
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Check the Return Bearing",
+    "category": "Compass",
+    "intro": "Knowing the opposite direction of travel can be useful before you commit to a route.",
+    "steps": [
+      "Add 180° to a bearing below 180°.",
+      "Subtract 180° from a bearing above 180°.",
+      "Record the return bearing when travelling toward a feature that may be difficult to relocate later."
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Keep Signal Flags Easy to Read",
+    "category": "Signal Flags",
+    "intro": "Signal flags communicate best when their colors, order and separation remain clearly visible.",
+    "steps": [
+      "Ensure the flags are not wrapped around the halyard or hidden behind each other.",
+      "Read multi-flag hoists from top to bottom.",
+      "Do not assume that the meaning of a multi-flag code is simply the meanings of the individual flags combined.",
+      "Learn the most important individual flags before moving on to larger code groups."
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Use a Catching Feature",
+    "category": "Navigation",
+    "intro": "A catching feature is an obvious landmark beyond your destination that tells you when you have travelled too far.",
+    "steps": [
+      "Choose something difficult to miss, such as a road, river, coastline or major ridge.",
+      "Identify it on the map before beginning the navigation leg.",
+      "If you reach it unexpectedly, stop and reassess rather than continuing farther."
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Keep Your Light Useful",
+    "category": "Field Safety",
+    "intro": "A flashlight is most useful when it provides enough illumination without destroying your awareness of the surroundings.",
+    "steps": [
+      "Use only as much brightness as the situation requires.",
+      "Avoid shining directly into another person’s eyes.",
+      "Give your eyes time to readjust after using a bright beam.",
+      "Carry a backup light when travelling in conditions where darkness is expected.",
+      "Check battery condition before leaving rather than discovering a problem after dark."
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Do Not Trust a Single Clue",
+    "category": "Orientation",
+    "intro": "One observation can be misleading. Direction becomes much more reliable when several independent clues agree.",
+    "steps": [
+      "Compare the compass with terrain and map information.",
+      "Treat the Sun, stars and natural features as supporting clues rather than perfect replacements for navigation tools.",
+      "If two sources strongly disagree, stop and determine why before continuing."
+    ]
+  },
+  {
+    "id": "16",
+    "title": "Mark Important Changes",
+    "category": "Field Skills",
+    "intro": "A few useful reference points are easier to remember than every meter of a route.",
+    "steps": [
+      "Note when you cross a stream, road, ridge or other major feature.",
+      "Remember major changes of direction.",
+      "Record unusual landmarks that would also be recognizable on the return trip.",
+      "Use these points to mentally divide a long journey into shorter sections."
+    ]
+  },
+  {
+    "id": "17",
+    "title": "Confirm Before You Turn",
+    "category": "Navigation",
+    "intro": "A wrong turn at a junction is much easier to prevent than to correct several kilometers later.",
+    "steps": [
+      "Stop briefly at major intersections and compare the available paths with your map.",
+      "Check the expected direction with your compass before choosing a branch.",
+      "Look for terrain features that should appear shortly after the turn.",
+      "Remember what the junction looks like from the opposite direction in case you need to return."
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Keep Morse Messages Short",
+    "category": "Morse",
+    "intro": "Short, clear messages are easier to transmit accurately by sound, light or vibration.",
+    "steps": [
+      "Remove unnecessary words before transmitting.",
+      "Separate letters and words with consistent pauses.",
+      "Repeat important information when accuracy matters."
+    ]
+  },
+  {
+    "id": "19",
+    "title": "Find a Better Observation Point",
+    "category": "Orientation",
+    "intro": "Sometimes the easiest way to solve a navigation problem is to improve what you can see.",
+    "steps": [
+      "Move only to a nearby safe location with a clearer view.",
+      "Look for large features such as ridges, towers, roads, coastlines or valleys.",
+      "Compare at least two visible features with the map before deciding your position."
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Protect Your Map",
+    "category": "Field Skills",
+    "intro": "A damaged map can become difficult to use exactly when you need it most.",
+    "steps": [
+      "Keep paper maps inside a waterproof cover or sealed transparent pouch.",
+      "Fold the map so the current area remains accessible without opening the entire sheet.",
+      "Avoid placing wet equipment directly on printed map surfaces.",
+      "Carry critical coordinates or route information separately as a backup."
+    ]
+  },
+  {
+    "id": "21",
+    "title": "Check Your Bearing Twice",
+    "category": "Compass",
+    "intro": "A few seconds spent confirming a bearing can prevent a long correction later.",
+    "steps": [
+      "Read the degree value once after setting the compass.",
+      "Recheck the needle alignment before starting to move.",
+      "Confirm that the direction-of-travel arrow points toward the intended side of the route rather than its opposite."
+    ]
+  },
+  {
+    "id": "22",
+    "title": "Use Sound Carefully",
+    "category": "Signals",
+    "intro": "Sound can attract attention when visual contact is impossible, especially in darkness, vegetation or uneven terrain.",
+    "steps": [
+      "Produce clear, intentional signals rather than continuous random noise.",
+      "Pause between signal sequences so you can hear a response.",
+      "Remember that wind, terrain and buildings can change how sound travels.",
+      "Move to a more open position when safe if surrounding obstacles heavily block the sound."
+    ]
+  },
+  {
+    "id": "23",
+    "title": "Learn the Most Important Flags First",
+    "category": "Signal Flags",
+    "intro": "You do not need to memorize the entire International Code of Signals at once.",
+    "steps": [
+      "Begin with high-value individual meanings such as Oscar, Victor, Whiskey, Alfa and Uniform.",
+      "Associate each flag pattern with both its phonetic name and meaning.",
+      "Practice recognition without showing the letter name.",
+      "Add numeral pennants only after the core alphabet flags feel familiar.",
+      "Review similar-looking designs together so they become easier to distinguish."
+    ]
+  },
+  {
+    "id": "24",
+    "title": "Use the Map Scale",
+    "category": "Maps",
+    "intro": "A map can tell you much more than direction when you understand its scale.",
+    "steps": [
+      "Identify the map scale before estimating any distance.",
+      "Measure the route rather than only the straight line when the path curves significantly.",
+      "Remember that steep terrain can make travel time much longer even when map distance is short."
+    ]
+  },
+  {
+    "id": "25",
+    "title": "Choose an Attack Point",
+    "category": "Navigation",
+    "intro": "A small destination becomes much easier to find when you approach it from something large and unmistakable.",
+    "steps": [
+      "Select a nearby road junction, bridge, hilltop or other obvious feature.",
+      "Navigate confidently to that feature first.",
+      "From there, use a shorter and more precise bearing toward the final destination."
+    ]
+  },
+  {
+    "id": "26",
+    "title": "Keep Your Signal Light Ready",
+    "category": "Signals",
+    "intro": "A flashlight can become a communication tool as well as a source of illumination.",
+    "steps": [
+      "Learn how to access its controls quickly before you need them.",
+      "Use clear short and long flashes when intentionally transmitting Morse.",
+      "Avoid unnecessary continuous use if preserving battery power is important.",
+      "Keep the lens unobstructed and clean enough to produce a visible beam."
+    ]
+  },
+  {
+    "id": "27",
+    "title": "Notice Changes in Terrain",
+    "category": "Orientation",
+    "intro": "Changes in the landscape can confirm where you are even when individual landmarks are difficult to recognize.",
+    "steps": [
+      "Notice transitions from forest to open ground.",
+      "Pay attention when a climb becomes a descent.",
+      "Record major stream, road or ridge crossings mentally or in your notes.",
+      "Compare these transitions with the expected sequence shown on your map."
+    ]
+  },
+  {
+    "id": "28",
+    "title": "Do Not Rush a Compass Reading",
+    "category": "Compass",
+    "intro": "A compass works best when you give the magnetic needle enough time to settle.",
+    "steps": [
+      "Hold the compass level.",
+      "Stop moving while taking an important reading.",
+      "Keep it away from obvious magnetic interference.",
+      "Repeat the measurement if the needle behaves unusually.",
+      "Compare repeated readings before trusting a major change in direction."
+    ]
+  },
+  {
+    "id": "29",
+    "title": "Build a Simple Route Plan",
+    "category": "Navigation",
+    "intro": "A route is easier to follow when it is divided into recognizable sections instead of treated as one long journey.",
+    "steps": [
+      "Break the route into legs between major landmarks.",
+      "Assign a direction or bearing to important legs.",
+      "Estimate the approximate distance of each section.",
+      "Identify a feature that should confirm the end of each leg."
+    ]
+  },
+  {
+    "id": "30",
+    "title": "Share Location Information Clearly",
+    "category": "Communication",
+    "intro": "Coordinates are useful only when the receiver understands exactly what format you are using.",
+    "steps": [
+      "State the coordinate format when ambiguity is possible.",
+      "Read numbers slowly and verify important digits.",
+      "Include a nearby recognizable landmark when available.",
+      "Repeat critical location information once to reduce transcription errors."
+    ]
+  },
+  {
+    "id": "31",
+    "title": "Use Contrast for Ground Signals",
+    "category": "Emergency",
+    "intro": "A large ground marker is useful only if it can be distinguished from the surrounding terrain.",
+    "steps": [
+      "Use light material on dark ground or dark material on pale ground.",
+      "Prefer simple shapes that remain recognizable from a distance.",
+      "Keep the area around the signal reasonably clear so its outline is visible.",
+      "Make the marker as large as available materials and safe conditions reasonably allow."
+    ]
+  },
+  {
+    "id": "32",
+    "title": "Practice Without Looking at the Answer",
+    "category": "Training",
+    "intro": "Recognition becomes faster when you actively recall a signal instead of repeatedly rereading it.",
+    "steps": [
+      "Look at a Morse pattern and say the character before revealing the answer.",
+      "View a signal flag and recall its name and individual meaning.",
+      "Convert simple bearings into compass directions mentally.",
+      "Repeat difficult items more often than those you already know well.",
+      "Mix Morse, flags and navigation questions so recognition works outside a fixed sequence."
+    ]
+  }
+]

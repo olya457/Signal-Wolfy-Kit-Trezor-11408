@@ -1,0 +1,510 @@
+[
+  {
+    "id": "1",
+    "title": "Compass Direction",
+    "items": ["North", "East", "South", "West"],
+    "answers": ["180°", "270°", "090°", "045°", "000° / 360°"],
+    "correct": [4, 2, 0, 1]
+  },
+  {
+    "id": "2",
+    "title": "Signal Flag",
+    "items": ["Oscar", "Victor", "Whiskey", "Uniform"],
+    "answers": [
+      "I require medical assistance",
+      "Man overboard",
+      "You are running into danger",
+      "I require assistance",
+      "My vessel is stopped"
+    ],
+    "correct": [1, 3, 0, 2]
+  },
+  {
+    "id": "3",
+    "title": "Morse Code",
+    "items": ["A", "N", "S", "O"],
+    "answers": ["...", "---", ".-", "-.", "..-"],
+    "correct": [2, 3, 0, 1]
+  },
+  {
+    "id": "4",
+    "title": "Navigation Term",
+    "items": ["Bearing", "Heading", "Course", "Back bearing"],
+    "answers": [
+      "Direction you are currently facing",
+      "Direction from one point to another",
+      "Direction exactly opposite the original bearing",
+      "Intended direction of travel",
+      "Distance between two points"
+    ],
+    "correct": [1, 0, 3, 2]
+  },
+  {
+    "id": "5",
+    "title": "Terrain Feature",
+    "items": ["Ridge", "Valley", "Saddle", "Spur"],
+    "answers": [
+      "Low point between two higher areas",
+      "Extended line of high ground",
+      "Low ground between higher areas",
+      "Small ridge projecting from higher terrain",
+      "Flat open area surrounded by water"
+    ],
+    "correct": [1, 2, 0, 3]
+  },
+  {
+    "id": "6",
+    "title": "Morse Timing",
+    "items": ["Dot", "Dash", "Gap between letters", "Gap between words"],
+    "answers": [
+      "7 units",
+      "3 units",
+      "1 unit",
+      "5 units",
+      "3 units of signal duration"
+    ],
+    "correct": [2, 4, 1, 0]
+  },
+  {
+    "id": "7",
+    "title": "Navigation Technique",
+    "items": ["Handrail", "Catching feature", "Attack point", "Pace counting"],
+    "answers": [
+      "Obvious feature near a difficult destination",
+      "Large feature that tells you when you have gone too far",
+      "Estimating distance by counting steps",
+      "Linear feature that can be followed",
+      "Finding north using stars"
+    ],
+    "correct": [3, 1, 0, 2]
+  },
+  {
+    "id": "8",
+    "title": "Maritime Signal",
+    "items": ["Alfa", "Bravo", "Hotel", "Zulu"],
+    "answers": [
+      "I require a tug",
+      "I have a pilot on board",
+      "I have a diver down; keep well clear",
+      "I am carrying or handling dangerous goods",
+      "I am altering my course to port"
+    ],
+    "correct": [2, 3, 1, 0]
+  },
+  {
+    "id": "9",
+    "title": "Map Concept",
+    "items": [
+      "Contour line",
+      "Contour interval",
+      "Grid reference",
+      "Map scale"
+    ],
+    "answers": [
+      "Relationship between map distance and real-world distance",
+      "Difference in elevation between neighboring contour lines",
+      "Line connecting points of equal elevation",
+      "Numeric method for identifying a location on a map",
+      "Direction indicated by a magnetic needle"
+    ],
+    "correct": [2, 1, 3, 0]
+  },
+  {
+    "id": "10",
+    "title": "Emergency or Field Action",
+    "items": [
+      "You lose the trail",
+      "Visibility suddenly becomes poor",
+      "You need to attract attention",
+      "You are following a compass bearing"
+    ],
+    "answers": [
+      "Use repeated, deliberate signals",
+      "Stop and identify the last confirmed location",
+      "Choose a visible landmark along the direction of travel",
+      "Shorten navigation legs and use obvious features",
+      "Continue moving quickly until something looks familiar"
+    ],
+    "correct": [1, 3, 0, 2]
+  },
+  {
+    "id": "11",
+    "title": "Compass Degree",
+    "items": ["Northeast", "Southeast", "Southwest", "Northwest"],
+    "answers": ["315°", "135°", "225°", "045°", "180°"],
+    "correct": [3, 1, 2, 0]
+  },
+  {
+    "id": "12",
+    "title": "Signal Flag",
+    "items": ["Echo", "India", "Sierra", "Yankee"],
+    "answers": [
+      "I am dragging my anchor",
+      "I am altering my course to starboard",
+      "I am operating astern propulsion",
+      "I am altering my course to port",
+      "I require medical assistance"
+    ],
+    "correct": [1, 3, 2, 0]
+  },
+  {
+    "id": "13",
+    "title": "Morse Number",
+    "items": ["1", "3", "5", "9"],
+    "answers": [".....", ".----", "----.", "...--", "--..."],
+    "correct": [1, 3, 0, 2]
+  },
+  {
+    "id": "14",
+    "title": "Map Feature",
+    "items": [
+      "Closely spaced contour lines",
+      "Widely spaced contour lines",
+      "Closed contour loops rising inward",
+      "V-shaped contours pointing uphill"
+    ],
+    "answers": ["Valley", "Gentle slope", "Hill", "Steep slope", "Coastline"],
+    "correct": [3, 1, 2, 0]
+  },
+  {
+    "id": "15",
+    "title": "Signal Purpose",
+    "items": ["Kilo", "Lima", "Mike", "Quebec"],
+    "answers": [
+      "My vessel is stopped and making no way",
+      "I wish to communicate with you",
+      "My vessel is healthy and I request free pratique",
+      "You should stop your vessel instantly",
+      "I require a pilot"
+    ],
+    "correct": [1, 3, 0, 2]
+  },
+  {
+    "id": "16",
+    "title": "Natural Navigation Clue",
+    "items": ["Polaris", "Sunrise", "Sunset", "Shadow-stick method"],
+    "answers": [
+      "Approximate west",
+      "Approximate north in the Northern Hemisphere",
+      "Approximate east",
+      "Can provide an approximate east-west line",
+      "Shows exact magnetic north"
+    ],
+    "correct": [1, 2, 0, 3]
+  },
+  {
+    "id": "17",
+    "title": "Field Navigation Problem",
+    "items": [
+      "Missing expected landmark",
+      "Compass near strong magnet",
+      "Walking only while staring at the compass",
+      "Following unknown footprints"
+    ],
+    "answers": [
+      "May produce an incorrect compass reading",
+      "Can cause you to miss terrain hazards and useful landmarks",
+      "May indicate you are already off the expected route",
+      "Does not prove the route leads to your destination",
+      "Guarantees a faster route"
+    ],
+    "correct": [2, 0, 1, 3]
+  },
+  {
+    "id": "18",
+    "title": "Maritime Flag",
+    "items": ["Delta", "Foxtrot", "Golf", "Tango"],
+    "answers": [
+      "I require a pilot",
+      "Keep clear of me; I am maneuvering with difficulty",
+      "I am disabled; communicate with me",
+      "Keep clear of me; I am engaged in pair trawling",
+      "Man overboard"
+    ],
+    "correct": [1, 2, 0, 3]
+  },
+  {
+    "id": "19",
+    "title": "Navigation Tool or Feature",
+    "items": [
+      "Magnetic needle",
+      "Rotating bezel",
+      "Direction-of-travel arrow",
+      "Orienting lines"
+    ],
+    "answers": [
+      "Help align the compass with map grid lines",
+      "Points along the direction you should travel",
+      "Used to set and read bearings",
+      "Aligns with Earth’s magnetic field",
+      "Measures walking distance automatically"
+    ],
+    "correct": [3, 2, 1, 0]
+  },
+  {
+    "id": "20",
+    "title": "Emergency Signal Method",
+    "items": ["Flashlight", "Whistle", "Bright fabric", "Reflective surface"],
+    "answers": [
+      "Produces audible signals over distance",
+      "Can create deliberate flashes in darkness",
+      "Creates strong visual contrast against the environment",
+      "Can redirect sunlight toward an observer",
+      "Calculates your bearing automatically"
+    ],
+    "correct": [1, 0, 2, 3]
+  },
+  {
+    "id": "21",
+    "title": "Direction Conversion",
+    "items": ["Bearing 060°", "Bearing 120°", "Bearing 200°", "Bearing 300°"],
+    "answers": [
+      "Northwest sector",
+      "Southwest sector",
+      "Northeast sector",
+      "Southeast sector",
+      "Due south"
+    ],
+    "correct": [2, 3, 1, 0]
+  },
+  {
+    "id": "22",
+    "title": "Morse Letter",
+    "items": ["E", "T", "H", "J"],
+    "answers": ["....", ".", ".---", "-", "--.-"],
+    "correct": [1, 3, 0, 2]
+  },
+  {
+    "id": "23",
+    "title": "Back Bearing",
+    "items": ["030°", "090°", "170°", "280°"],
+    "answers": ["100°", "210°", "350°", "270°", "110°"],
+    "correct": [1, 3, 2, 0]
+  },
+  {
+    "id": "24",
+    "title": "Navigation Situation",
+    "items": [
+      "Following a river",
+      "Using a highway beyond your destination",
+      "Navigating first to a large tower near a small target",
+      "Counting your steps over a known distance"
+    ],
+    "answers": [
+      "Attack point",
+      "Pace counting",
+      "Handrail",
+      "Catching feature",
+      "Back bearing"
+    ],
+    "correct": [2, 3, 0, 1]
+  },
+  {
+    "id": "25",
+    "title": "Signal Flag Meaning",
+    "items": ["November", "Charlie", "X-Ray", "Juliett"],
+    "answers": [
+      "No / Negative",
+      "Yes / Affirmative",
+      "Stop carrying out your intentions and watch for my signals",
+      "Fire or dangerous cargo emergency",
+      "I require a tug"
+    ],
+    "correct": [0, 1, 2, 3]
+  },
+  {
+    "id": "26",
+    "title": "Maritime Signal",
+    "items": ["Papa", "Romeo", "Bravo", "Hotel"],
+    "answers": [
+      "I have a pilot on board",
+      "Dangerous goods are being handled or carried",
+      "Vessel preparing to proceed to sea",
+      "Primarily used as part of coded groups",
+      "I require medical assistance"
+    ],
+    "correct": [2, 3, 1, 0]
+  },
+  {
+    "id": "27",
+    "title": "Morse Letter",
+    "items": ["B", "D", "G", "K"],
+    "answers": ["-.-", "-..", "--.", "-...", ".-."],
+    "correct": [3, 1, 2, 0]
+  },
+  {
+    "id": "28",
+    "title": "Compass Concept",
+    "items": ["Magnetic north", "True north", "Declination", "Orienting arrow"],
+    "answers": [
+      "Geographic direction toward the North Pole",
+      "Difference between magnetic and true north",
+      "Direction indicated by the magnetic needle",
+      "Used to align the needle when setting a bearing",
+      "Distance between two contour lines"
+    ],
+    "correct": [2, 0, 1, 3]
+  },
+  {
+    "id": "29",
+    "title": "Numeral Morse Code",
+    "items": ["2", "4", "6", "8"],
+    "answers": ["----..", "....-", "-....", "..---", "---.."],
+    "correct": [3, 1, 2, 4]
+  },
+  {
+    "id": "30",
+    "title": "Terrain Clue",
+    "items": [
+      "Stream in a valley",
+      "Long narrow high ground",
+      "Low crossing between two peaks",
+      "Finger of high ground extending downhill"
+    ],
+    "answers": ["Spur", "Saddle", "Ridge", "Valley", "Plateau"],
+    "correct": [3, 2, 1, 0]
+  },
+  {
+    "id": "31",
+    "title": "Signal Flag",
+    "items": ["Quebec", "Whiskey", "Zulu", "Victor"],
+    "answers": [
+      "I require assistance",
+      "I require medical assistance",
+      "I require a tug",
+      "I request free pratique",
+      "I am altering course to starboard"
+    ],
+    "correct": [3, 1, 2, 0]
+  },
+  {
+    "id": "32",
+    "title": "Morse Timing Rule",
+    "items": [
+      "Dot duration",
+      "Dash duration",
+      "Gap inside one character",
+      "Gap between words"
+    ],
+    "answers": [
+      "1 unit of silence",
+      "7 units of silence",
+      "3 units of signal",
+      "1 unit of signal",
+      "5 units of silence"
+    ],
+    "correct": [3, 2, 0, 1]
+  },
+  {
+    "id": "33",
+    "title": "Navigation Error",
+    "items": [
+      "Compass beside a speaker",
+      "Ignoring a missing junction",
+      "Using a moving vehicle as a landmark",
+      "Continuing after becoming uncertain"
+    ],
+    "answers": [
+      "Landmark may no longer be where expected",
+      "May cause magnetic interference",
+      "Can greatly increase the navigation error",
+      "May indicate the route does not match expectations",
+      "Improves bearing accuracy"
+    ],
+    "correct": [1, 3, 0, 2]
+  },
+  {
+    "id": "34",
+    "title": "Direction",
+    "items": [
+      "North-northeast",
+      "East-southeast",
+      "South-southwest",
+      "West-northwest"
+    ],
+    "answers": ["292.5°", "202.5°", "22.5°", "112.5°", "247.5°"],
+    "correct": [2, 3, 1, 0]
+  },
+  {
+    "id": "35",
+    "title": "Signal Use",
+    "items": ["Oscar", "Golf", "Foxtrot", "Delta"],
+    "answers": [
+      "Vessel is disabled and wants communication",
+      "Man overboard",
+      "Vessel requires a pilot",
+      "Keep clear; vessel is maneuvering with difficulty",
+      "Vessel is dragging anchor"
+    ],
+    "correct": [1, 2, 0, 3]
+  },
+  {
+    "id": "36",
+    "title": "Map Reading Concept",
+    "items": ["Scale", "Legend", "Grid", "Contour interval"],
+    "answers": [
+      "Explains map symbols",
+      "Relationship between map distance and real distance",
+      "Difference in elevation between contour lines",
+      "Reference system used to identify locations",
+      "Shows magnetic north automatically"
+    ],
+    "correct": [1, 0, 3, 2]
+  },
+  {
+    "id": "37",
+    "title": "Field Technique",
+    "items": [
+      "Turn around occasionally",
+      "Choose a distant landmark",
+      "Stop when the route becomes uncertain",
+      "Use a large linear feature"
+    ],
+    "answers": [
+      "Helps recognize the return route",
+      "Works as a handrail",
+      "Prevents a small error from becoming larger",
+      "Helps maintain a straight bearing",
+      "Measures elevation automatically"
+    ],
+    "correct": [0, 3, 2, 1]
+  },
+  {
+    "id": "38",
+    "title": "Maritime Action",
+    "items": ["Echo", "India", "Sierra", "Mike"],
+    "answers": [
+      "Vessel is stopped and making no way",
+      "Altering course to port",
+      "Altering course to starboard",
+      "Operating astern propulsion",
+      "Requires a tug"
+    ],
+    "correct": [2, 1, 3, 0]
+  },
+  {
+    "id": "39",
+    "title": "Navigation Reference",
+    "items": ["Sun rising", "Sun setting", "Polaris", "Compass needle"],
+    "answers": [
+      "Approximate west",
+      "Magnetic north",
+      "Approximate east",
+      "Approximate true north in the Northern Hemisphere",
+      "Exact south at all times"
+    ],
+    "correct": [2, 0, 3, 1]
+  },
+  {
+    "id": "40",
+    "title": "Emergency Situation",
+    "items": [
+      "Person overboard",
+      "Medical help needed",
+      "General assistance needed",
+      "Vessel dragging anchor"
+    ],
+    "answers": ["Whiskey", "Yankee", "Oscar", "Victor", "Quebec"],
+    "correct": [2, 0, 3, 1]
+  }
+]
