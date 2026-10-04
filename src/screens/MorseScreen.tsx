@@ -2,7 +2,14 @@ import { SignalFeedback } from '../components/SignalFeedback';
 import { useLayout } from '../hooks/useLayout';
 import { BottomTabNavigationProp } from '@react-navigation/bottom-tabs';
 import React, { useEffect, useState } from 'react';
-import { Alert, Pressable, Text, TextInput, View } from 'react-native';
+import {
+  Alert,
+  Platform,
+  Pressable,
+  Text,
+  TextInput,
+  View,
+} from 'react-native';
 import Clipboard from '@react-native-clipboard/clipboard';
 import {
   CompositeNavigationProp,
@@ -20,6 +27,7 @@ import { useApp } from '../state/AppState';
 import flags from '../data/flags.json';
 export function MorseScreen() {
   const layout = useLayout();
+  const [gridWidth, setGridWidth] = useState(layout.contentWidth);
   const navigation =
     useNavigation<
       CompositeNavigationProp<
@@ -178,7 +186,10 @@ export function MorseScreen() {
                 <Text style={s.section}>{title}</Text>
                 <Text style={s.small}>• dit ▰ dah</Text>
               </View>
-              <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 9 }}>
+              <View
+                onLayout={event => setGridWidth(event.nativeEvent.layout.width)}
+                style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 9 }}
+              >
                 {flags
                   .filter(f =>
                     section ? /\d/.test(f.letter) : /[A-Z]/.test(f.letter),
@@ -195,14 +206,17 @@ export function MorseScreen() {
                       style={[
                         s.card,
                         {
-                          width: layout.gridWidth(
-                            section
-                              ? layout.largeText
-                                ? 1
-                                : 2
-                              : layout.letterColumns,
-                            9,
-                          ),
+                          width:
+                            Platform.OS === 'android'
+                              ? Math.floor((gridWidth - 18) / 3)
+                              : layout.gridWidth(
+                                  section
+                                    ? layout.largeText
+                                      ? 1
+                                      : 2
+                                    : layout.letterColumns,
+                                  9,
+                                ),
                           padding: 12,
                           borderRadius: 18,
                           minHeight: section ? 67 : 112,

@@ -5,7 +5,14 @@ import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParams } from '../navigation/types';
 import { colors, styles as s } from '../theme';
-import { Image, Pressable, Text, TextInput, View } from 'react-native';
+import {
+  Image,
+  Platform,
+  Pressable,
+  Text,
+  TextInput,
+  View,
+} from 'react-native';
 import { RootProps } from '../navigation/types';
 import { Button, Chips, Empty, Header, Screen } from '../components/UI';
 import { flagImages } from '../data/assets';
@@ -127,7 +134,7 @@ export function FlagScreen({ route }: RootProps<'Flag'>) {
   const f = flags.find(v => v.id === route.params.id)!;
   const player = useSignal();
   return (
-    <Screen>
+    <Screen extraBottomPadding={Platform.OS === 'android' ? 40 : 0}>
       <View
         style={[
           s.card,

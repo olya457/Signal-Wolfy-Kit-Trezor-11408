@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import {
   Image,
   ImageBackground,
+  Platform,
   Pressable,
   Text,
   View,
@@ -132,7 +133,13 @@ export function Onboarding() {
   return (
     <Screen
       animationKey={step}
-      style={{ flexGrow: 1, paddingBottom: Math.max(insets.bottom, 16) }}
+      style={{
+        flexGrow: 1,
+        paddingBottom:
+          Platform.OS === 'android'
+            ? insets.bottom + 20
+            : Math.max(insets.bottom, 16),
+      }}
     >
       <View style={{ alignItems: 'flex-end', minHeight: 36 }}>
         {step < 2 && (
@@ -180,7 +187,17 @@ export function Onboarding() {
         </Text>
         <Text style={[s.body, { marginTop: 8 }]}>{slide.body}</Text>
       </View>
-      <View style={[s.between, { marginTop: 10, flexWrap: 'wrap' }]}>
+      <View
+        style={[
+          s.between,
+          {
+            // Screen already adds a gap between its children.
+            marginTop:
+              Platform.OS === 'android' ? 20 - (layout.compact ? 12 : 16) : 10,
+            flexWrap: 'wrap',
+          },
+        ]}
+      >
         <View style={s.row}>
           {slides.map((_, i) => (
             <View

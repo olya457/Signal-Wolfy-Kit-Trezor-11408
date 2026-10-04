@@ -4,7 +4,14 @@ import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParams } from '../navigation/types';
 import { colors, styles as s } from '../theme';
-import { Image, ImageBackground, Pressable, Text, View } from 'react-native';
+import {
+  Image,
+  ImageBackground,
+  Platform,
+  Pressable,
+  Text,
+  View,
+} from 'react-native';
 import { RootProps } from '../navigation/types';
 import { Chips, Header, Screen } from '../components/UI';
 import { assets } from '../data/assets';
@@ -120,7 +127,7 @@ export function ArticleScreen({ route }: RootProps<'Article'>) {
   const layout = useLayout();
   const a = articles.find(v => v.id === route.params.id)!;
   return (
-    <Screen>
+    <Screen extraBottomPadding={Platform.OS === 'android' ? 40 : 0}>
       <Text style={[s.eyebrow, { color: colors.blue }]}>{a.category}</Text>
       <Text
         style={[s.title, layout.compact && { fontSize: 29, lineHeight: 34 }]}

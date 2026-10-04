@@ -1,4 +1,4 @@
-package com.signalwolfykittrezor
+package com.signal.wolfykitt.rezor
 
 import android.os.Bundle
 import com.swmansion.rnscreens.fragment.restoration.RNScreensFragmentFactory

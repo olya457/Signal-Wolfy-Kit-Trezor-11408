@@ -1,4 +1,6 @@
 import React from 'react';
+import { Platform } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { NavigationContainer, DarkTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
@@ -16,8 +18,11 @@ import articles from '../data/articles.json';
 const Stack = createNativeStackNavigator<RootStackParams>();
 const Tab = createBottomTabNavigator<TabParams>();
 function Tabs() {
+  const insets = useSafeAreaInsets();
+  const isAndroid = Platform.OS === 'android';
   return (
     <Tab.Navigator
+      safeAreaInsets={isAndroid ? { bottom: 0 } : undefined}
       screenOptions={({ route }) => ({
         headerShown: false,
         tabBarActiveTintColor: colors.orange,
@@ -26,6 +31,15 @@ function Tabs() {
           backgroundColor: '#0E0B24',
           borderTopColor: '#ffffff15',
           paddingTop: 9,
+          ...(isAndroid && {
+            height: 64,
+            paddingBottom: 8,
+            marginHorizontal: 20,
+            marginBottom: insets.bottom + 20,
+            borderRadius: 24,
+            borderTopWidth: 0,
+            elevation: 8,
+          }),
         },
         tabBarLabelStyle: { fontSize: 10, paddingBottom: 3 },
         tabBarIcon: ({ color }) => (

@@ -8,6 +8,7 @@ import { colors, styles as s } from '../theme';
 import {
   Alert,
   Modal,
+  Platform,
   Pressable,
   ScrollView,
   Share,
@@ -218,7 +219,12 @@ export function TipsScreen({ favorites = false }: { favorites?: boolean }) {
               }}
             />
             <ScrollView
-              contentContainerStyle={{ padding: layout.padding, gap: 16 }}
+              contentContainerStyle={{
+                padding: layout.padding,
+                paddingBottom:
+                  layout.padding + (Platform.OS === 'android' ? 40 : 0),
+                gap: 16,
+              }}
             >
               {selected && (
                 <ContentReveal animationKey={selected.id} style={{ gap: 16 }}>

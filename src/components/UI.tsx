@@ -27,10 +27,12 @@ export function Screen({
   scroll = true,
   style,
   animationKey,
+  extraBottomPadding = 0,
 }: {
   children: React.ReactNode;
   scroll?: boolean;
   animationKey?: string | number;
+  extraBottomPadding?: number;
   style?: StyleProp<ViewStyle>;
 }) {
   const layout = useLayout();
@@ -60,7 +62,8 @@ export function Screen({
                   {
                     padding: layout.padding,
                     gap: layout.compact ? 12 : 16,
-                    paddingBottom: Math.max(24, insets.bottom),
+                    paddingBottom:
+                      Math.max(24, insets.bottom) + extraBottomPadding,
                   },
                   style,
                 ]}
