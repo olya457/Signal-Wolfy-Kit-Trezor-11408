@@ -26,9 +26,9 @@ function Tabs() {
       screenOptions={({ route }) => ({
         headerShown: false,
         tabBarActiveTintColor: colors.orange,
-        tabBarInactiveTintColor: '#858095',
+        tabBarInactiveTintColor: colors.muted,
         tabBarStyle: {
-          backgroundColor: '#0E0B24',
+          backgroundColor: colors.background,
           borderTopColor: '#ffffff15',
           paddingTop: 9,
           ...(isAndroid && {
@@ -64,7 +64,7 @@ export function AppNavigator() {
         colors: {
           ...DarkTheme.colors,
           background: colors.background,
-          card: '#130F2B',
+          card: colors.panel,
           text: colors.text,
           primary: colors.orange,
           border: colors.border,
@@ -74,7 +74,7 @@ export function AppNavigator() {
     >
       <Stack.Navigator
         screenOptions={{
-          headerStyle: { backgroundColor: '#130F2B' },
+          headerStyle: { backgroundColor: colors.panel },
           headerTintColor: colors.orange,
           headerTitleStyle: {
             color: colors.text,

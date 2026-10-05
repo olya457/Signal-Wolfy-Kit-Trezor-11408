@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import { HeaderHeightContext } from '@react-navigation/elements';
 import {
-  ImageBackground,
   Pressable,
   ScrollView,
   Text,
@@ -20,7 +19,6 @@ import LinearGradient from 'react-native-linear-gradient';
 import Svg, { Path, Circle, Line } from 'react-native-svg';
 import { ContentReveal } from './ContentReveal';
 import { useLayout } from '../hooks/useLayout';
-import { assets } from '../data/assets';
 import { colors, styles as s } from '../theme';
 export function Screen({
   children,
@@ -39,7 +37,7 @@ export function Screen({
   const headerHeight = useContext(HeaderHeightContext) ?? 0;
   const insets = useSafeAreaInsets();
   return (
-    <ImageBackground source={assets.background} style={s.page}>
+    <View style={[s.page, { backgroundColor: colors.background }]}>
       <SafeAreaView
         edges={headerHeight ? ['left', 'right'] : ['top', 'left', 'right']}
         style={s.page}
@@ -78,7 +76,7 @@ export function Screen({
           )}
         </KeyboardAvoidingView>
       </SafeAreaView>
-    </ImageBackground>
+    </View>
   );
 }
 export function Button({

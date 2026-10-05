@@ -91,7 +91,7 @@ export function FlagsScreen() {
                   height: 102,
                   justifyContent: 'center',
                   alignItems: 'center',
-                  backgroundColor: '#25204455',
+                  backgroundColor: colors.panel,
                   borderRadius: 12,
                 }}
               >
@@ -140,7 +140,7 @@ export function FlagScreen({ route }: RootProps<'Flag'>) {
           s.card,
           {
             alignItems: 'center',
-            backgroundColor: player.lit ? '#775431' : '#27215B80',
+            backgroundColor: player.lit ? '#775431' : colors.panel,
             paddingVertical: layout.compact ? 22 : 34,
             gap: 20,
           },

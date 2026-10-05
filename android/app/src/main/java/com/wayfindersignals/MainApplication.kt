@@ -1,4 +1,4 @@
-package com.signal.wolfykitt.rezor
+package com.wayfindersignals
 
 import android.app.Application
 import com.facebook.react.PackageList

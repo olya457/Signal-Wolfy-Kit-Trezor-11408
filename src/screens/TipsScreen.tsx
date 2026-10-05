@@ -55,7 +55,7 @@ export function TipsScreen({ favorites = false }: { favorites?: boolean }) {
     Share.share({
       message: `${tip.title}\n\n${tip.intro}\n\n${tip.steps
         .map((step, i) => `${i + 1}. ${step}`)
-        .join('\n')}\n\nSignal Wolfy`,
+        .join('\n')}\n\nWayfinder Signals`,
     }).catch(() => Alert.alert('Unable to share', 'Please try again.'));
   return (
     <Screen>
@@ -202,7 +202,7 @@ export function TipsScreen({ favorites = false }: { favorites?: boolean }) {
               width: '100%',
               maxWidth: 620,
               alignSelf: 'center',
-              backgroundColor: '#231C51',
+              backgroundColor: colors.panel,
               borderTopLeftRadius: 30,
               borderTopRightRadius: 30,
               paddingBottom: insets.bottom + 12,

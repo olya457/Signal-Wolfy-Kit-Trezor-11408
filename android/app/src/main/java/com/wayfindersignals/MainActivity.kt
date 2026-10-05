@@ -1,4 +1,4 @@
-package com.signal.wolfykitt.rezor
+package com.wayfindersignals
 
 import android.os.Bundle
 import com.swmansion.rnscreens.fragment.restoration.RNScreensFragmentFactory

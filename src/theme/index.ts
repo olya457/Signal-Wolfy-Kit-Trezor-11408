@@ -1,10 +1,10 @@
 import { Platform, StyleSheet } from 'react-native';
 export const colors = {
-  background: '#0B0920',
-  panel: '#1B1930',
+  background: '#081F18',
+  panel: '#14382C',
   border: '#ffffff25',
-  text: '#FAF9FF',
-  muted: '#ABA8BE',
+  text: '#F5FAF7',
+  muted: '#A8BEB3',
   orange: '#FF873C',
   pink: '#FF4C7A',
   gold: '#FFC34B',

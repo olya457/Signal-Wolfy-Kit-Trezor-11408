@@ -6,6 +6,7 @@ import { AppProvider, useApp } from './src/state/AppState';
 import { SignalProvider } from './src/services/SignalPlayer';
 import { AppNavigator } from './src/navigation/AppNavigator';
 import { Onboarding, Splash } from './src/screens/Onboarding';
+import { colors } from './src/theme';
 function Content() {
   const { data, ready } = useApp();
   const [loaded, setLoaded] = useState(false);
@@ -21,9 +22,9 @@ function Content() {
 }
 export default function App() {
   return (
-    <GestureHandlerRootView style={{ flex: 1 }}>
+    <GestureHandlerRootView style={{ flex: 1, backgroundColor: colors.background }}>
       <SafeAreaProvider>
-        <StatusBar barStyle="light-content" backgroundColor="#100C26" />
+        <StatusBar barStyle="light-content" backgroundColor={colors.background} />
         <AppProvider>
           <Content />
         </AppProvider>

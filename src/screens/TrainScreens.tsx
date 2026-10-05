@@ -37,7 +37,7 @@ export function TrainScreen() {
       <View
         style={[
           s.card,
-          { padding: 0, overflow: 'hidden', backgroundColor: '#39205780' },
+          { padding: 0, overflow: 'hidden', backgroundColor: colors.panel },
         ]}
       >
         <ImageBackground
@@ -240,7 +240,7 @@ export function QuizScreen({ navigation }: RootProps<'Quiz'>) {
         <View
           style={{
             padding: 45,
-            backgroundColor: '#22194970',
+            backgroundColor: colors.panel,
             borderRadius: 45,
             alignSelf: 'center',
             alignItems: 'center',
@@ -322,7 +322,7 @@ export function QuizScreen({ navigation }: RootProps<'Quiz'>) {
       <View
         style={[
           s.card,
-          { backgroundColor: '#38236370', borderColor: '#9658ED80' },
+          { backgroundColor: colors.panel, borderColor: '#9658ED80' },
         ]}
       >
         <Text style={[s.eyebrow, { color: colors.purple }]}>Match & learn</Text>
@@ -438,7 +438,7 @@ export function QuizScreen({ navigation }: RootProps<'Quiz'>) {
         <View
           style={{
             flex: 1,
-            backgroundColor: '#080617E8',
+            backgroundColor: `${colors.background}E8`,
             justifyContent: 'center',
             paddingVertical: 24,
             paddingHorizontal: layout.padding,
@@ -457,7 +457,7 @@ export function QuizScreen({ navigation }: RootProps<'Quiz'>) {
                     s.card,
                     {
                       padding: 25,
-                      backgroundColor: '#28205D',
+                      backgroundColor: colors.panel,
                       gap: 20,
                       alignItems: 'center',
                     },

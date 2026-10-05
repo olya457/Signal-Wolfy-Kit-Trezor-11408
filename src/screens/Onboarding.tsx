@@ -3,7 +3,6 @@ import { useLayout } from '../hooks/useLayout';
 import React, { useEffect, useState } from 'react';
 import {
   Image,
-  ImageBackground,
   Platform,
   Pressable,
   Text,
@@ -34,7 +33,7 @@ export function Splash({ onDone }: { onDone: () => void }) {
     }
   }, [failed, onDone]);
   return (
-    <ImageBackground source={assets.background} style={{ flex: 1 }}>
+    <View style={{ flex: 1, backgroundColor: colors.background }}>
       <ContentReveal
         style={{ flex: 1, alignItems: 'center', paddingTop: height * 0.297 }}
       >
@@ -65,13 +64,15 @@ export function Splash({ onDone }: { onDone: () => void }) {
           style={[
             s.title,
             {
-              fontSize: 44 * scale,
+              fontSize: 36 * scale,
+              textAlign: 'center',
+              paddingHorizontal: 20,
               marginTop: 52 * scale,
-              lineHeight: 54 * scale,
+              lineHeight: 44 * scale,
             },
           ]}
         >
-          SIGNAL WOLFY
+          Wayfinder Signals
         </Text>
         <Text
           style={{
@@ -99,7 +100,7 @@ export function Splash({ onDone }: { onDone: () => void }) {
           />
         </View>
       </ContentReveal>
-    </ImageBackground>
+    </View>
   );
 }
 const slides = [

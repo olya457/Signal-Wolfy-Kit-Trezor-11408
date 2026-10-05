@@ -109,7 +109,7 @@ export function MorseScreen() {
       </View>
       {tab === 'Alphabet' ? (
         <>
-          <View style={[s.card, s.row, { backgroundColor: '#38225270' }]}>
+          <View style={[s.card, s.row, { backgroundColor: colors.panel }]}>
             <View
               style={{
                 width: layout.compact ? 60 : 76,
@@ -117,7 +117,7 @@ export function MorseScreen() {
                 borderRadius: 38,
                 borderWidth: 2,
                 borderColor: colors.gold,
-                backgroundColor: player.lit ? colors.orange : '#17132E',
+                backgroundColor: player.lit ? colors.orange : colors.panel,
                 alignItems: 'center',
                 justifyContent: 'center',
                 boxShadow: player.lit ? '0 0 30px #ffae45' : 'none',
@@ -321,7 +321,7 @@ export function MorseScreen() {
                   ? 'Type a message…'
                   : 'Type dots and dashes…'
               }
-              placeholderTextColor="#79748D"
+              placeholderTextColor={colors.muted}
               value={input}
               onChangeText={changeInput}
               style={{
@@ -366,7 +366,7 @@ export function MorseScreen() {
           <View
             style={[
               s.card,
-              { borderColor: '#9658ED70', backgroundColor: '#22174B80' },
+              { borderColor: '#9658ED70', backgroundColor: colors.panel },
             ]}
           >
             <Text style={[s.eyebrow, { color: colors.gold }]}>
